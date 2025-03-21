@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>微信好友删除拉黑检测工具 | WechatRealFriends-真实好友快速自动批量检测工具专业版</title>
+<meta name="keywords" content="WechatRealFriends快速自动批量检测微信好友" />
+<meta name="description" content="WechatRealFriends是一款基于微信iPad协议开发的微信好友检测工具，旨在帮助用户快速检测微信好友关系，识别是否存在单向好友（即只有一方是好友的关系）。该软件通过自动化检测机制，能够在不打扰好友的情况下，自动检测微信好友状态" />
+    <link href="https://cdn.bootcdn.net/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #07C160; /* 微信主题绿 */
+            --dark-bg: #1A1A1A;
+            --text-primary: #F5F5F5;
+        }
+
+        body {
+            background: var(--dark-bg);
+            color: var(--text-primary);
+            font-family: 'Microsoft YaHei', sans-serif;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #2E2E2E 0%, var(--dark-bg) 100%);
+            border-radius: 20px;
+            padding: 3rem 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: rgba(7,193,96,0.15);
+            border-radius: 15px;
+        }
+
+        .download-btn {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #069C4C 100%);
+            color: white !important;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(7,193,96,0.3);
+            transition: transform 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .screenshot {
+            border: 2px solid rgba(255,255,255,0.1);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-4">
+        <!-- 头部信息 -->
+        <div class="hero-section">
+            <div class="row align-items-center g-5">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center mb-4">
+                        <h1 class="display-5 fw-bold me-3">微信好友删除拉黑检测工具</h1>
+                        <span class="badge bg-primary fs-5">v1.0.1 绿色版</span>
+                    </div>
+                    <p class="lead opacity-75 mb-4">基于微信iPad协议的专业级好友关系检测工具</p>
+                    
+                    <!-- 核心参数 -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-6">
+                            <div class="bg-dark p-3 rounded">
+                                <div class="h4 text-primary">100%</div>
+                                <small class="opacity-75">检测准确率</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="bg-dark p-3 rounded">
+                                <div class="h4 text-primary">∞</div>
+                                <small class="opacity-75">支持好友数量</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 截图展示 -->
+                <div class="col-md-6">
+                    <div class="screenshot">
+                        <img src="weixin.jpg" alt="软件界面" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 下载区域 -->
+        <div class="text-center my-5 py-4">
+            <h3 class="mb-4">立即开始好友关系检测</h3>
+            <div class="d-grid gap-3 d-md-block">
+                <a href="https://pan.baidu.com/s/1tzenbX0DLPs2mFVp_SfeOQ?pwd=b52p" class="download-btn mx-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-download me-2" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+                    </svg>
+                    百度网盘下载
+                </a>
+                
+                <a href="https://pan.quark.cn/s/875a1ca39e85" class="download-btn mx-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-apple me-2" viewBox="0 0 16 16">
+                        <path d="M11.182.008C11.148-.03 9.923 0 8.857 1.18c-1.066 1.308-2.78 3.32-6.672 3.32S0 4.36 0 7.072c0 3.488 3.064 7.168 6.849 7.168q.243-.002.484-.028c.243.021.476.028.728.028 3.505 0 5.618-2.004 5.618-5.593 0-2.442-1.986-5.012-5.349-5.336l-.027-.07Z"/>
+                    </svg>
+                    夸克网盘下载
+                </a>
+            </div>
+            <p class="text-muted small mt-3">支持Windows 10/11 和 macOS 12+ 系统</p>
+        </div>
+
+        <!-- 核心功能 -->
+        <div class="row g-4 mb-5">
+            <div class="col-md-6">
+                <div class="p-4 bg-dark rounded">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="feature-icon d-flex align-items-center justify-content-center me-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-shield-check" viewBox="0 0 16 16">
+                                <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625q-.194.076-.402.093a1 1 0 0 1-.085-.002q-.045-.006-.123-.016a1 1 0 0 1-.07-.01 1 1 0 0 1-.048-.003l-.028-.002A1 1 0 0 1 8 13.5a.5.5 0 0 1 .356-.149c.808.036 1.844.16 3.102.456 1.066.255 2.073.523 2.719.893.647.37 1.153.85 1.515 1.43A7 7 0 0 1 16 8c0-3.998-2.095-6.916-5.072-8.44z"/>
+                                <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                            </svg>
+                        </div>
+                        <h4>核心功能</h4>
+                    </div>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">✔️ 智能单向好友检测</li>
+                        <li class="mb-3">✔️ 批量静默清理功能</li>
+                        <li class="mb-3">✔️ 隐私保护模式</li>
+                        <li>✔️ 多账号管理支持</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- 使用指南 -->
+            <div class="col-md-6">
+                <div class="p-4 bg-dark rounded">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="feature-icon d-flex align-items-center justify-content-center me-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-display" viewBox="0 0 16 16">
+                                <path d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4q-1 0-2.5.5T6 13H2s-2 0-2-2zm1.398-.855q-.262.433-.398.855h13.396q-.136-.422-.398-.855zm-1.046-.21A1 1 0 0 1 2 3h12a1 1 0 0 1 1 1v.906q.032.01.062.023c.283.066.53.207.723.43.26.26.4.587.4.923v6a1.5 1.5 0 0 1-1.5 1.5h-3.135a3 3 0 1 1-5.73 0H2A1.5 1.5 0 0 1 .5 12V6a1.5 1.5 0 0 1 .852-1.358Z"/>
+                            </svg>
+                        </div>
+                        <h4>使用指南</h4>
+                    </div>
+                    <ol class="opacity-75">
+                        <li class="mb-3">1. 使用微信扫码登录（需选择iPad设备）</li>
+                        <li class="mb-3">2. 启动智能检测模式</li>
+                        <li class="mb-3">3. 查看检测结果报告</li>
+                        <li>4. 一键清理无效好友</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
